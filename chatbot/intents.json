@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you with HDFC Bank today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "interest_rate",
+      "patterns": ["What is the interest rate?", "Tell me about interest rates", "Interest rates for savings"],
+      "responses": ["Our current savings account interest rate is 3.5% per annum.", "Savings interest rate is 3.5% p.a."]
+    },
+    {
+      "tag": "open_account",
+      "patterns": ["How to open an account?", "Open a new account", "Account opening process"],
+      "responses": ["You can open a new account at the nearest branch or online through our website."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I want to register a complaint", "How to complain?", "Complaint registration"],
+      "responses": ["Please call 1800-270-0000 to register a complaint or use our mobile app."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Thanks"],
+      "responses": ["Goodbye! Have a great day!", "Thanks for chatting with me. Bye!"]
+    }
+  ]
+}
